@@ -1,0 +1,79 @@
+{
+  "id": "root",
+  "title": "Vitamins in Human Body",
+  "summary": "Essential micronutrients required for metabolic function, growth, immunity, and long-term health.",
+  "children": [
+    {
+      "id": "classification",
+      "title": "Vitamin classification",
+      "summary": "Grouped by solubility: fat-soluble and water-soluble.",
+      "children": [
+        {
+          "id": "fat-soluble",
+          "title": "Fat-soluble vitamins",
+          "summary": "Stored in body tissue; excess can accumulate.",
+          "children": [
+            { "id": "vitamin-a", "title": "Vitamin A", "summary": "Vision, epithelial health, immune function." },
+            { "id": "vitamin-d", "title": "Vitamin D", "summary": "Calcium metabolism, bone mineralization." },
+            { "id": "vitamin-e", "title": "Vitamin E", "summary": "Antioxidant protection for lipids." },
+            { "id": "vitamin-k", "title": "Vitamin K", "summary": "Blood clotting, bone metabolism." }
+          ]
+        },
+        {
+          "id": "water-soluble",
+          "title": "Water-soluble vitamins",
+          "summary": "Limited storage; regular intake required.",
+          "children": [
+            { "id": "vitamin-c", "title": "Vitamin C", "summary": "Antioxidant, collagen synthesis, iron absorption." },
+            {
+              "id": "b-complex",
+              "title": "B-complex vitamins",
+              "summary": "Energy metabolism, neurological function.",
+              "children": [
+                { "id": "b1", "title": "B1 (Thiamine)", "summary": "Carbohydrate metabolism, nerve function." },
+                { "id": "b2", "title": "B2 (Riboflavin)", "summary": "Redox reactions, skin health." },
+                { "id": "b3", "title": "B3 (Niacin)", "summary": "NAD/NADP cofactor, energy pathways." },
+                { "id": "b5", "title": "B5 (Pantothenic acid)", "summary": "CoA synthesis, fatty acid metabolism." },
+                { "id": "b6", "title": "B6 (Pyridoxine)", "summary": "Amino acid metabolism, neurotransmitters." },
+                { "id": "b7", "title": "B7 (Biotin)", "summary": "Carboxylation reactions, hair/skin." },
+                { "id": "b9", "title": "B9 (Folate)", "summary": "DNA synthesis, pregnancy health." },
+                { "id": "b12", "title": "B12 (Cobalamin)", "summary": "Myelin, red blood cells." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "Dietary sources",
+      "summary": "Primary food sources and exposure routes.",
+      "children": [
+        { "id": "fruits-veg", "title": "Fruits & vegetables", "summary": "Citrus, berries, leafy greens, crucifers." },
+        { "id": "meat-dairy", "title": "Meat & dairy", "summary": "Eggs, milk, liver, fish, poultry." },
+        { "id": "grains-nuts", "title": "Grains & nuts", "summary": "Whole grains, legumes, seeds, nuts." },
+        { "id": "sunlight-fortified", "title": "Sunlight & fortified", "summary": "UV exposure (D), fortified cereals/milk." }
+      ]
+    },
+    {
+      "id": "roles",
+      "title": "Key bodily roles",
+      "summary": "Core functions supported by vitamins.",
+      "children": [
+        { "id": "antioxidant", "title": "Antioxidant protection", "summary": "Neutralize free radicals; limit oxidative stress." },
+        { "id": "bone", "title": "Bone health", "summary": "Mineralization and remodeling (D, K, C)." },
+        { "id": "immune", "title": "Immune system support", "summary": "Barrier integrity and immune signaling." },
+        { "id": "energy", "title": "Energy metabolism", "summary": "Coenzymes for carbohydrate/fat/protein pathways." }
+      ]
+    },
+    {
+      "id": "impact-balance",
+      "title": "Health impact & balance",
+      "summary": "Deficiency and excess both impact health outcomes.",
+      "children": [
+        { "id": "deficiency", "title": "Deficiency", "summary": "Fatigue, anemia, bone pain, night blindness, neuropathy (varies by vitamin)." },
+        { "id": "excess", "title": "Excess", "summary": "Toxicity risk in fat-soluble; GI upset or nerve symptoms (B6) with high doses." }
+      ]
+    }
+  ]
+}
